@@ -1,0 +1,10 @@
+1. data.aws_availability_zones
+1. aws_security_group.elb  			--- resources
+ 2. aws_elb                			--- resources
+1. aws_security_group.instance  	--- resources
+ 2. aws_launch_configuration   		--- resources
+   3. aws_autoscaling_group	   		--- resources
+
+
+
+|Total = 5 resources will be created.
